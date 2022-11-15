@@ -34,6 +34,9 @@ ul li a:hover{
     background-color: rgba(67, 124, 247, 0.384);
     transition: 0.4s;
     border-radius: 14px;
+    box-shadow: 14px 10px 37px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 14px 10px 37px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 10px 37px 0px rgba(0,0,0,0.75);
 }
 .content{
     display: flex;
@@ -46,6 +49,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 10px;
+box-shadow: 14px 10px 37px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 14px 10px 37px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 10px 37px 0px rgba(0,0,0,0.75);
 }
 
 .btn{
