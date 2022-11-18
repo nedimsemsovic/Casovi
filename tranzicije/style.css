@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  margin: 100px;
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+
+  transition-duration: 1.2s ;
+  transition-property: all;
+
+  border: 0px solid #000000;
+}
+.box:hover {
+    width: 600px;
+    height: 800px;
+    transition-delay: 0.2s;
+  background-color: red;
+  transform: rotate(90deg);
+  border-radius: 124px 124px 124px 124px;
+  -moz-border-radius: 124px 124px 124px 124px;
+  -webkit-border-radius: 124px 124px 124px 124px;
+  border: 0px solid #000000;
+  margin-left: 400px;
+}
