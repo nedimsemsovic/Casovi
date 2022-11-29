@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+.navigacija {
+  height: 60px;
+  background-color: #508991;
+}
+.container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 565px;
+  background-color: #404e4d;
+}
+
+.left {
+  padding-top: 150px;
+  padding-left: 70px;
+  background-color: #404e4d;
+  width: 50%;
+  height: auto;
+}
+
+.right {
+  padding: 3.3%;
+}
+
+.left h1 {
+  padding-left: 20px;
+  font-size: 50px;
+  padding-bottom: 20px;
+  width: 500px;
+}
+.left p {
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.first-button {
+  cursor: pointer;
+  background-color: #016fb9;
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 400px;
+  height: 40px;
+}
+.second-button {
+  cursor: pointer;
+  background-color: #353531;
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 400px;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+img {
+    filter: grayscale(50%);
+    border: 3px solid black;
+}
