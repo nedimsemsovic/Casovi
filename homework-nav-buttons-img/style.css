@@ -39,7 +39,7 @@ body {
 .left h1 {
   padding-left: 20px;
   font-size: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   width: 500px;
 }
 .left p {
@@ -54,6 +54,7 @@ body {
   margin-left: 50px;
   width: 400px;
   height: 40px;
+  border-radius: 10px;
 }
 .second-button {
   cursor: pointer;
@@ -62,6 +63,7 @@ body {
   margin-left: 50px;
   width: 400px;
   height: 40px;
+  border-radius: 10px;
 }
 
 a {

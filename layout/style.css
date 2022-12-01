@@ -25,7 +25,7 @@ header{
     color: #7494cc;
 }
 header li {
-    
+    transition: 0.3s ease;
     flex: 0;
     margin-left: 50px;
 display: inline;
@@ -109,4 +109,14 @@ border: 0px solid #000000;
 background-color: #d9d8e8;
     padding: 10px;
     font-size: 20px;
+}
+li:hover {
+    border-radius: 85px 85px 85px 85px;
+    -moz-border-radius: 85px 85px 85px 85px;
+    -webkit-border-radius: 85px 85px 85px 85px;
+    border: 0px solid #000000;
+    color: white !important;
+padding: 13px 30px;
+background-color: #5877b8;
+cursor: pointer;
 }
