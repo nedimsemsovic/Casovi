@@ -1,0 +1,55 @@
+*{
+color: white;
+padding: 0;
+margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+margin-left: 400px;
+    border-radius: 20px;
+height: 250px;
+width: 500px;
+    background-color: black;
+
+}
+.top {
+width: 500px;
+display: flex;
+padding-top: 15px;
+
+}
+img {
+    width: 100px;
+    background-color: black;
+    height: 50px;
+    width: auto;
+}
+.photo{
+    padding-left:15px ;
+}
+.master{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.chipp{
+    padding-left: 220px;
+}
+.main{
+    padding-top: 40px;
+    padding-left: 15px;
+}
+.bottom{
+    width: 500px;
+    display: flex;
+    padding-top: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+.broj{
+    padding-top: 5px;
+    font-size: 25px;
+}
