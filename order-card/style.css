@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:wght@300&display=swap');
+*{
+    color: black;
+    font-family: 'Passion One', cursive;
+font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    background-color: #D6E0FF;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: #F8F9FF;
+    width: 400px;
+    height: 550px;
+}
+.photo{
+    width: 400px;
+    height: 200px;
+}
+.main{
+    padding-top: 15px;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.plan{
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+display: flex;
+    width: 270px;
+   height: 60px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+.first p{
+ padding-left: 10px;
+}
+
+
+.note{
+    padding-top: 10px;
+    height: 50px;
+    width: auto;
+}
+.button{
+text-align: center;
+    margin: auto;
+    width: 300px;
+}
+.prvo{
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 30px;
+    width: 300px;
+    background-color: #2081C3;
+    color: white;
+}
+.cancel{
+    margin-top: 20px;
+}
